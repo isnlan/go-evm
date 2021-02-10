@@ -15,11 +15,11 @@ package core
 import (
 	"math/big"
 
-	"github.com/duanbing/go-evm/state"
-	"github.com/duanbing/go-evm/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/isnlan/go-evm/state"
+	"github.com/isnlan/go-evm/types"
 )
 
 type StateObject struct {

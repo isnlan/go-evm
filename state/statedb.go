@@ -23,12 +23,12 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/duanbing/go-evm/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/ethereum/go-ethereum/trie"
+	"github.com/isnlan/go-evm/types"
 )
 
 type revision struct {

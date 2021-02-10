@@ -19,9 +19,9 @@ package core
 import (
 	"math/big"
 
-	"github.com/duanbing/go-evm/types"
-	"github.com/duanbing/go-evm/vm"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/isnlan/go-evm/types"
+	"github.com/isnlan/go-evm/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

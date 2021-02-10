@@ -6,7 +6,7 @@ All dependencies is maintained by `godep`.
 
 1. Compile contract
 ```
-cd  $GOPATH/src/github.com/duanbing/go-evm/example/event
+cd  $GOPATH/src/github.com/isnlan/go-evm/example/event
 solcjs --abi --bin coin.sol
 ```
 Here we get code in xxx.bin, and abi in xx.abi

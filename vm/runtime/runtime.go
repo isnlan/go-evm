@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/duanbing/go-evm/state"
-	"github.com/duanbing/go-evm/vm"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/params"
+	"github.com/isnlan/go-evm/state"
+	"github.com/isnlan/go-evm/vm"
 )
 
 // Config is a basic type specifying certain configuration flags for running

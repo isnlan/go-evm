@@ -23,10 +23,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/duanbing/go-evm/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/isnlan/go-evm/types"
 )
 
 type Storage map[common.Hash]common.Hash
