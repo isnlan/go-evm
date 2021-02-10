@@ -61,8 +61,8 @@ func main() {
 		//	Bloom:      types.BytesToBloom([]byte("duanbing")),
 		Difficulty: big.NewInt(1),
 		Number:     big.NewInt(1),
-		GasLimit:   gasLimit,
-		GasUsed:    big.NewInt(1),
+		GasLimit:   100000,
+		GasUsed:    1,
 		Time:       big.NewInt(time.Now().Unix()),
 		Extra:      nil,
 		//MixDigest:  testHash,
@@ -83,10 +83,10 @@ func main() {
 	must(err)
 
 	//	config := params.TestnetChainConfig
-	config := params.AllProtocolChanges
+	config := &params.ChainConfig{}
 	logConfig := vm.LogConfig{}
 	structLogger := vm.NewStructLogger(&logConfig)
-	vmConfig := vm.Config{Debug: true, Tracer: structLogger, DisableGasMetering: false /*, JumpTable: vm.NewByzantiumInstructionSet()*/}
+	vmConfig := vm.Config{Debug: true, Tracer: structLogger,  /*, JumpTable: vm.NewByzantiumInstructionSet()*/}
 	//vmConfig := vm.Config{DisableGasMetering: false}
 
 	evm := vm.NewEVM(ctx, statedb, config, vmConfig)
