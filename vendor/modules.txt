@@ -1,34 +1,16 @@
 # github.com/btcsuite/btcd v0.0.0-20180418030112-675abc5df3c5
 ## explicit
 github.com/btcsuite/btcd/btcec
-# github.com/davecgh/go-spew v1.1.0
+# github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
-# github.com/ethereum/go-ethereum v1.8.3
-## explicit
-github.com/ethereum/go-ethereum/accounts/abi
-github.com/ethereum/go-ethereum/common
-github.com/ethereum/go-ethereum/common/hexutil
-github.com/ethereum/go-ethereum/common/math
-github.com/ethereum/go-ethereum/crypto
-github.com/ethereum/go-ethereum/crypto/bn256
-github.com/ethereum/go-ethereum/crypto/bn256/cloudflare
-github.com/ethereum/go-ethereum/crypto/bn256/google
-github.com/ethereum/go-ethereum/crypto/secp256k1
-github.com/ethereum/go-ethereum/crypto/sha3
-github.com/ethereum/go-ethereum/ethdb
-github.com/ethereum/go-ethereum/log
-github.com/ethereum/go-ethereum/metrics
-github.com/ethereum/go-ethereum/params
-github.com/ethereum/go-ethereum/rlp
-github.com/ethereum/go-ethereum/trie
-# github.com/go-stack/stack v1.7.0
+# github.com/go-stack/stack v1.8.0
 ## explicit
 github.com/go-stack/stack
-# github.com/golang/snappy v0.0.0-20170215233205-553a64147049
+# github.com/golang/snappy v0.0.3-0.20201103224600-674baa8c7fc3
 ## explicit
 github.com/golang/snappy
-# github.com/hashicorp/golang-lru v0.0.0-20180201235237-0fb14efe8c47
+# github.com/hashicorp/golang-lru v0.5.4
 ## explicit
 github.com/hashicorp/golang-lru
 github.com/hashicorp/golang-lru/simplelru
@@ -40,9 +22,13 @@ github.com/kr/text
 ## explicit
 # github.com/onsi/gomega v1.10.5
 ## explicit
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
 # github.com/stretchr/testify v1.7.0
 ## explicit
-# github.com/syndtr/goleveldb v0.0.0-20180331014930-714f901b98fd
+github.com/stretchr/testify/assert
+github.com/stretchr/testify/require
+# github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca
 ## explicit
 github.com/syndtr/goleveldb/leveldb
 github.com/syndtr/goleveldb/leveldb/cache
@@ -56,12 +42,18 @@ github.com/syndtr/goleveldb/leveldb/opt
 github.com/syndtr/goleveldb/leveldb/storage
 github.com/syndtr/goleveldb/leveldb/table
 github.com/syndtr/goleveldb/leveldb/util
-# golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+# golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
 ## explicit
 golang.org/x/crypto/ripemd160
+golang.org/x/crypto/sha3
+# golang.org/x/sys v0.0.0-20210112080510-489259a85091
+## explicit
+golang.org/x/sys/cpu
 # gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 ## explicit
 gopkg.in/check.v1
 # gopkg.in/karalabe/cookiejar.v2 v2.0.0-20150724131613-8dcd6a7f4951
 ## explicit
 gopkg.in/karalabe/cookiejar.v2/collections/prque
+# gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+gopkg.in/yaml.v3

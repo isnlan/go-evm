@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/isnlan/go-evm/common"
+	"github.com/isnlan/go-evm/common/math"
+	"github.com/isnlan/go-evm/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/isnlan/go-evm/common"
+	"github.com/isnlan/go-evm/common/math"
+	"github.com/isnlan/go-evm/crypto"
+	"github.com/isnlan/go-evm/params"
 	"github.com/isnlan/go-evm/types"
 )
 

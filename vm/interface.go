@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/isnlan/go-evm/common"
 	"github.com/isnlan/go-evm/types"
 )
 

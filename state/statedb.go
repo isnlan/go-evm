@@ -23,11 +23,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/isnlan/go-evm/common"
+	"github.com/isnlan/go-evm/crypto"
+	"github.com/isnlan/go-evm/log"
+	"github.com/isnlan/go-evm/rlp"
+	"github.com/isnlan/go-evm/trie"
 	"github.com/isnlan/go-evm/types"
 )
 

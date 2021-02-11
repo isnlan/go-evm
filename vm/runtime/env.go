@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/isnlan/go-evm/common"
 	"github.com/isnlan/go-evm/core"
 	"github.com/isnlan/go-evm/vm"
 )

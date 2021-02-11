@@ -21,11 +21,11 @@ import (
 
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/isnlan/go-evm/accounts/abi"
+	"github.com/isnlan/go-evm/common"
+	"github.com/isnlan/go-evm/common/hexutil"
+	"github.com/isnlan/go-evm/ethdb"
+	"github.com/isnlan/go-evm/params"
 	"github.com/isnlan/go-evm/types"
 )
 
@@ -98,7 +98,7 @@ func main() {
 	fmt.Println("after create contract, testBalance =", testBalance)
 	// set input ,  formatted accocding to https://solidity.readthedocs.io/en/develop/abi-spec.html
 	//encode methods := "multiply(uint)"
-	inttypes, err := abi.NewType("uint")
+	inttypes, err := abi.NewType("uint256")
 	must(err)
 	methods := abi.Method{
 		Name:    "multiply",

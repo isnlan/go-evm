@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/isnlan/go-evm/common"
+	"github.com/isnlan/go-evm/crypto"
+	"github.com/isnlan/go-evm/ethdb"
+	"github.com/isnlan/go-evm/params"
 	"github.com/isnlan/go-evm/state"
 	"github.com/isnlan/go-evm/vm"
 )

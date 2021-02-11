@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/isnlan/go-evm/accounts/abi"
+	"github.com/isnlan/go-evm/common"
+	"github.com/isnlan/go-evm/ethdb"
 	"github.com/isnlan/go-evm/state"
 	"github.com/isnlan/go-evm/vm"
 )

@@ -13,7 +13,7 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/isnlan/go-evm/common"
 	"math/big"
 )
 

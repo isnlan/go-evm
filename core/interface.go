@@ -15,9 +15,9 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/isnlan/go-evm/common"
+	"github.com/isnlan/go-evm/ethdb"
+	"github.com/isnlan/go-evm/log"
 	"github.com/isnlan/go-evm/state"
 	"github.com/isnlan/go-evm/types"
 )

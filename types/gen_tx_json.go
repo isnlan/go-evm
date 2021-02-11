@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/isnlan/go-evm/common"
+	"github.com/isnlan/go-evm/common/hexutil"
 )
 
 var _ = (*txdataMarshaling)(nil)
